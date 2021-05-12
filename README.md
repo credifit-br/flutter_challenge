@@ -13,9 +13,12 @@ We are providing you the following artifacts:
 
 Your task is to create a digit validator for Brazilian bank accounts, following the requirements below:
 
-- User inputs: Bank name/number, branch number, account number with digit, and account type (checking / saving)
 - Validation for at least Itau (341) and Bradesco (237). A "bonus" will be given for CEF (Caixa) implementation
-- Output: digit validation
+- Screen Inputs: Bank name/number, branch number, account number with digit, and account type (checking / saving)
+- Screen Output
+  - If digit is correct: background changes to green (or feel free to be creative and give another feedback to user)
+  - If digit is incorrect: text input border becomes red, and error message appear
+- Unit tests
 
 This problem is designed to give you some flavor of the work we do here at Credifit.
 Please if you have any questions, just make your assumptions, comment on the code and follow along. Part of the skill is to make decisions. If you need to change any code already written, do so.
